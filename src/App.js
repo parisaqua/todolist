@@ -1,9 +1,12 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css'
+import Todo from './Todo';
 
 function App() {
   return (
-    <div className="App">
-    
+    <div className="container">
+      <h1>Ma To-Do !</h1>
+      <Todo />
     </div>
   );
 }
